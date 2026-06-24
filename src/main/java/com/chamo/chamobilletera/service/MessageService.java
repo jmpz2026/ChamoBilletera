@@ -1,4 +1,4 @@
-package com.chamo.chamobilletera.manager;
+package com.chamo.chamobilletera.service;
 
 
 import org.springframework.context.MessageSource;
@@ -6,11 +6,11 @@ import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Service;
 
 @Service
-public class MessageManager {
+public class MessageService {
 
     private final MessageSource messageSource;
 
-    public MessageManager(MessageSource messageSource) {
+    public MessageService(MessageSource messageSource) {
         this.messageSource = messageSource;
     }
 
